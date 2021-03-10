@@ -139,7 +139,7 @@ public class LockedMeProject {
 		}
 		case 3:{
 			//exit
-			Runtime.getRuntime().exit(0); 
+            System.exit(0);
 			break;
 		}
 		}

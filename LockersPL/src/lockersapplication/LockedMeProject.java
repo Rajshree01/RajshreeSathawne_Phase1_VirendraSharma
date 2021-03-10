@@ -39,7 +39,8 @@ public class LockedMeProject {
 
 	private void Order() {
 		File file = new File("E://");
-		System.out.println("Files in "+file.getAbsolutePath()+" Path is");
+		System.out.println("Displaying all the files in the path "+file.getAbsolutePath());
+		System.out.println();
 		String arr[]=file.list();
 		Set<String>treeset = new TreeSet<String>();
 		int m=0;
@@ -49,7 +50,9 @@ public class LockedMeProject {
 			treeset.add(j);
 			System.out.println("    "+m+"."+j);
 		}
-
+        System.out.println();
+        System.out.println();
+        System.out.println("All the files are displayed..");
 	}
 	private void fileFunctionalities() {
 		homePageLayout();
@@ -115,9 +118,9 @@ public class LockedMeProject {
 		System.out.println("You are welcome to LockedMe.com");
 		System.out.println();
 		System.out.println("Here's what we can help you with");
-		System.out.println("	1.Listout the Files name in Ascending order");
+		System.out.println("	1. Listout the Files name in Ascending order");
 		System.out.println("	2. File Operations");
-		System.out.println("	3.Close the Application");
+		System.out.println("	3. Close the Application");
 		System.out.println("Please enter the option you are interested in: [in integer format] ");
 		LockedMeProject obj = new LockedMeProject();
 		Scanner scan = new Scanner(System.in);

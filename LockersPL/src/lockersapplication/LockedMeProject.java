@@ -10,7 +10,7 @@ public class LockedMeProject {
 		{
 		for(int j=0;j<2;j++) {
 			for(int i=0;i<150;i++) {
-			System.out.print(".");
+			System.out.print("-");
 			}
 			System.out.println();
 			System.out.println();
@@ -51,7 +51,7 @@ public class LockedMeProject {
 			System.out.println("    "+m+"."+j);
 		}
         System.out.println();
-        System.out.println();
+        //System.out.println();
         System.out.println("All the files are displayed..");
 	}
 	private void fileFunctionalities() {

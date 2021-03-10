@@ -110,9 +110,9 @@ public class LockedMeProject {
 	// USER INPUT
 	public void MenuPage() {
 		try{
-		System.out.println();
-		System.out.println();
-		System.out.println();
+		//System.out.println();
+		//System.out.println();
+		//System.out.println();
 		System.out.println();
 		System.out.println();
 		System.out.println("You are welcome to LockedMe.com");
@@ -260,6 +260,7 @@ public class LockedMeProject {
 			}
 			else {
 				System.out.println("invalid input!");
+				
 				MenuPage();
 			}
 		}
